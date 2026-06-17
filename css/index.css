@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.container a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.card{
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card h1{
+    height: 60px;
+    margin: 0 0 10px 0;
+}
+.card img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #00BFFF;
+}
+h1{
+    text-align: center;
+    color: white;
+}

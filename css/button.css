@@ -1,0 +1,16 @@
+a{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;    
+    text-align: center;
+    padding: 12px 10px;
+    border-radius: 8px;
+    width: 170px;
+    background-color: #c00000;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    transform: scale(1.1);
+}
